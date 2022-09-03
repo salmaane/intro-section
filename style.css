@@ -124,7 +124,6 @@ header{
     border-radius: 9px;
 }
 #company {
-    max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s;
 }
@@ -145,7 +144,6 @@ header{
     top: 4px;
 }
 #features {
-    max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s;
 }

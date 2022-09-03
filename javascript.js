@@ -15,10 +15,10 @@ function dropMenu(dropdown) {
 let menu = document.getElementById('navigation');
 
 function openMenu(){
-  if(menu.style.display === 'none') {
+  if(menu.style.display === '') {
     menu.style.display = 'flex';
   } else {
-    menu.style.display = 'none';
+    menu.style.display = '';
   }
 }
 
